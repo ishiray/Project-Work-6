@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #11113c;
+  color: white;
+  padding-bottom: 10rem;
+  
+}
+
+.company {
+  text-align: left;
+  font-size: 60px;
+  margin-right: 10rem;
+  padding-right: 4rem;
+}
+
+.auth-form-container, .transfer, .login-form, .register-form{
+  display: flex;
+  padding: 1.5rem;
+  border-radius: 10%;
+  flex-direction: column;
+  background-color: #313153;
+  /* height: 20rem; */
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  color: white;
+  background-color: #11113c;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: #473bf7;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
+
